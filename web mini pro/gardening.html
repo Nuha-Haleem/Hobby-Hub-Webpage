@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Hobby Website</title>
+    <link rel="stylesheet" type="text/css" href="gardening.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    </head>
+<body>
+  <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="#">Hobbies</a>
+          <ul>
+            <li><a href="gardening.html">Gardening</a></li>
+            <li><a href="cooking.html">Cooking</a></li>
+        
+          </ul>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+           <p> HOBBY HUB</p>
+    </nav>
+
+
+    <main class="content">
+      <h1>Welcome to our Gardening Tips and Tricks page!</h1>
+      <p>Here you will find helpful information for improving your gardening skills.</p>
+     
+    </main>
+
+   			<div class="gallery">
+          <img src="download.jpeg">
+          <div class="desc">  add description </div>
+        </div>
+
+        <div class="gallery">
+          <img src="download.jpeg">
+          <div class="desc">  add description </div>
+        
+        </div>
+          
+        <div class="gallery">
+          <img src="download.jpeg">
+          <div class="desc">  add description </div>
+        </div>
+       
+
+        <div class="gallery">
+          <img src="download.jpeg">
+          <div class="desc">  add description </div>
+        
+        </div>
+          
+        <div class="gallery">
+          <img src="download.jpeg">
+          <div class="desc">  add description </div>
+        </div>
+       
+        <div class="gallery">
+          <img src="download.jpeg">
+          <div class="desc">  add description </div>
+        </div>
+      
+       
+      
+
+   
+        <h1 class="headding"> you have  quary  <br>you can  rise  your  qustion  here !</h1>
+
+
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+        <script>
+          const form = document.getElementById('contact-form');
+          const nameInput = document.getElementById('name');
+          const emailInput = document.getElementById('email');
+          const messageInput = document.getElementById('message');
+        
+          form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            
+            if (!nameInput.value || !emailInput.value || !messageInput.value) {
+              alert('Please fill out all fields.');
+              return;
+            }
+            
+            
+            form.reset();
+            alert('Your message has been sent!');
+          });
+        </script>
+        
+<div class="footer-dark">
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>Hobbies</h3>
+                          <ul>
+                              <li><a href="#">Gardening</a></li>
+                              <li><a href="#">Cooking</a></li>
+                            
+                          </ul>
+                      </div>
+                    
+                      <div class="col-md-6 item text">
+                        
+                        <p> The main aim of the hobby is to minimize the burden on our minds after doing hard work and use our free time in the best possible way by keeping ourselves busy and happy </p>
+                      
+                          </div>
+                      <div class="container">
+                        <ul class="list-unstyled">
+                          <li><a href="https://www.facebook.com/yourpage"><i class="fab fa-facebook-square"></i></a></li>
+                          <li><a href="https://twitter.com/yourusername"><i class="fab fa-twitter-square"></i></a></li>
+                          <li><a href="https://www.instagram.com/NuHaleem/"><i class="fab fa-instagram-square"></i></a></li>
+                          <li><a href="https://www.youtube.com/channel/dkk"><i class="fab fa-youtube-square"></i></a></li>
+                        </ul>
+                      </div>
+                 
+                    </div>
+                  <p class="copyright">hobby hub &copy 2023</p>
+              </div>
+            </div>
+          </footer>
+         
+         </body> 
+          </html> 
+
+
+        
+   		
+       
+
+       
+    
+    
+                    
+                     
+                    
+          
+          
+   				
+
+
+  
+       
+        </body>
+        </html>
